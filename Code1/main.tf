@@ -12,11 +12,11 @@ provider "aws" {
    region = "us-east-2"
 }
 
-resource "aws_iam_group" "developers" {
+resource "aws_iam_group" "ansiblegroup" {
   name = "creation"  
 }
 
-resource "aws_iam_user" "lb" {
+resource "aws_iam_user" "ansible" {
   name = "bravo24"
    }
 
